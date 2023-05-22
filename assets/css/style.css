@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+}
+nav{
+    display: flex;
+    background-color: #f1f1f1;
+    justify-content: space-between;
+    align-items:center;
+    height: 58px;
+    padding: 0 90px;
+}
+nav .items{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav .items a{
+    color: black;
+    opacity: 0.8;
+    font-size: 15px;
+    font-weight: 560;
+    padding: 8px 18px;
+    margin-left: 15px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+nav .items a:hover,
+nav .items a.active {
+    color: #187acf;   
+}
+
+nav img{
+    width: 139px;
+    height: 35px;
+}
+#web{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:80px;
+
+}
+#web .vater{
+    text-align: center;
+}
+#web .vater .huptstadt{
+    color: #0099ae;
+    font-size: 40px;
+}
+#web  .vater .strasse{
+    font-size: 13px;
+    opacity: 0.8;
+    padding: 30px 0;
+}
+#web .vater .land{
+    width: 515px;
+    font-size: 14px;
+    font-weight: 480;
+    
+    
+}
+form{
+    padding-top: 33px;
+}
+input{
+    border:1px solid #0099ae;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    width: 105px;
+    height: 37px;
+    /* font-size: 15px;
+    font-weight: 480; */
+}
+input:hover{
+    background-color: #0099ae;
+    color: white;
+}
+#web .mutter{
+    width: 660px;
+    height: 380px;
+}
+#web .mutter .hill{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+
+}
+
+#web .mutter .house{
+    position: absolute;
+    top: 55%;
+    left: 59% ;
+}
+
+#web .mutter .sun{
+    position: absolute;
+    top: 49%;
+    left: 62%;
+}
+
+#web .mutter .birds1{
+    position: absolute;
+    top:51%;
+    left:51%;  
+}
+
+#web .mutter .birds2{
+    position: absolute;
+    top:50%;
+    left: 86%;
+}
